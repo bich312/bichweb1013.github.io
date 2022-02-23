@@ -1,0 +1,321 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0s linear;
+}
+
+.mainn {
+    width: 100%;
+    height: 430px;
+    background: url(pic/gugu1.png);
+    margin-bottom: 20px;
+}
+
+.text-container {
+    background-color: rgb(255, 255, 255);
+    width: 100;
+    font-size: 75px;
+    text-align: center;
+}
+
+.fixed-content {
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.text-container .h1 {
+    color: black;
+}
+
+nav {
+    overflow: hidden;
+    font-size: 17px;
+}
+
+nav a {
+    line-height: 30px;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: rgb(8, 94, 97);
+    font-size: 17px;
+}
+
+#body {
+    width: 100%;
+    margin: 0px;
+}
+
+#banner {
+    background: url(pic/Chanel2.png);
+    height: 350px;
+    width: 100%;
+}
+
+#footer {
+    background: rgb(8, 94, 97);
+    width: 100%;
+    height: 150px;
+    color: rgb(252, 228, 192);
+    clear: left;
+    line-height: 30px;
+    clear: both;
+}
+
+#footer .tr1 {
+    width: 25%;
+    margin-left: 100px;
+    height: 100%;
+    float: left;
+    text-align: justify;
+}
+
+#footer .ph1 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: justify;
+}
+
+#footer .ph1 .H5 {
+    margin-left: 20px;
+}
+
+#footer .ph2 {
+    width: 35%;
+    height: 100%;
+    float: right;
+    margin-left: -200px;
+    border: 1px solid #ccc;
+    border: none;
+    text-align: justify;
+}
+
+#footer .ph1 a {
+    color: rgb(252, 228, 192);
+}
+
+#footer .ph1 a:hover {
+    color: white;
+}
+
+.t1 {
+    width: 500px;
+    float: left;
+}
+
+.right {
+    float: left;
+    width: 500px;
+    margin-left: 80px;
+    text-align: justify;
+}
+
+.left {
+    float: left;
+    width: 380px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.small-img-row {
+    width: 93px;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.btn {
+    border: solid 2px #111;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #9cebd5;
+    border: transparent;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: rgb(158, 155, 160);
+}
+
+.right .col-2 .chon {
+    padding: 10px;
+}
+
+select {
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(0, 128, 43);
+    border-radius: 10px;
+}
+
+select:hover {
+    border: 2px solid gray;
+}
+
+p {
+    font-size: larger;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.chon {
+    margin-left: -10px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 128, 43);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 10px
+}
+
+input:hover {
+    border: 2px solid gray;
+}
+
+#banner {
+    background: url(pic/gugu2.png);
+    height: 350px;
+    width: 100%;
+    margin-top: 470px;
+    margin-bottom: 20px;
+}
+
+.rght {
+    float: right;
+    width: 500px;
+    margin-right: 230px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.lft {
+    float: left;
+    width: 428px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.sall-img-row {
+    width: 104px;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.btn {
+    border: solid 2px #111;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #9cebd5;
+    border: transparent;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: rgb(158, 155, 160);
+}
+
+.rght .col-2 .chon {
+    padding: 10px;
+}
+
+select {
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(0, 128, 43);
+    border-radius: 10px;
+}
+
+select:hover {
+    border: 2px solid gray;
+}
+
+p {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.chon {
+    margin-left: -10px;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 128, 43);
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 10px
+}
+
+input:hover {
+    border: 2px solid gray;
+}

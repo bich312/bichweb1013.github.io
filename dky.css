@@ -1,0 +1,192 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0s linear;
+}
+
+.mainn {
+    height: 350px;
+    background: url(pic/h.png);
+    width: 1555px;
+}
+
+.text-container {
+    background-color: rgb(255, 255, 255);
+    width: 100;
+    font-size: 75px;
+    text-align: center;
+}
+
+.text-container .h1 {
+    color: black;
+}
+
+nav {
+    font-size: 17px;
+}
+
+nav a {
+    line-height: 30px;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: rgb(8, 94, 97);
+    font-size: 17px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-image: url(pic/br.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1,
+label {
+    color: rgb(11, 100, 189);
+}
+
+input[type=text],
+input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    outline: none;
+}
+
+input:hover {
+    background-color: rgb(252, 246, 239);
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.signupbtn {
+    float: left;
+    width: 100%;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.a {
+    padding: 16px;
+    width: 50%;
+    margin-left: 350px;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+.ve {
+    font-size: 40px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.ve a {
+    text-decoration: none;
+}
+
+.ve a:hover {
+    color: #f44336;
+}
+
+#footer {
+    background: rgb(8, 94, 97);
+    width: 100%;
+    height: 150px;
+    color: rgb(252, 228, 192);
+    clear: left;
+    line-height: 30px;
+    clear: both;
+}
+
+#footer .tr1 {
+    width: 25%;
+    margin-left: 100px;
+    height: 100%;
+    float: left;
+    text-align: justify;
+}
+
+#footer .ph1 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: justify;
+}
+
+#footer .ph1 .H5 {
+    margin-left: 20px;
+}
+
+#footer .ph2 {
+    width: 35%;
+    height: 100%;
+    float: right;
+    margin-left: -200px;
+    border: 1px solid #ccc;
+    border: none;
+    text-align: justify;
+}
+
+#footer .ph1 a {
+    color: rgb(252, 228, 192);
+}
+
+#footer .ph1 a:hover {
+    color: white;
+}

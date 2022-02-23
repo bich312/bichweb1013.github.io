@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA compatiple" content="=IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scala=1.0">
+    <link rel="stylesheet" href="GUCCI.css">
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=660344757451291&autoLogAppEvents=1"></script>
+
+    <title> GUCCI </title>
+</head>
+
+<body>
+    <div class=" text-container ">
+        <h6>GUCCI</h6>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="GUCCI.html">GUCCI</a>
+            <a href="CHANEL.html">CHANEL</a>
+            <a href="VERSACE.html">VERSACE</a>
+            <a href="dnhap.html">LOGIN</a>
+        </nav>
+    </div>
+    <div class="mainn"></div>
+    <div class="left">
+        <div class="col-1">
+            <img src="pic/gu-1.jpg" width="100%" id="ProductImg">
+        </div>
+    </div>
+    <div class="small-img-row">
+        <div class="small">
+
+            <img src="pic/gu-1.jpg" width="100%" class="small-img">
+        </div>
+        <div class="small">
+            <img src="pic/GU-2.jpg" width="100%" class="small-img">
+        </div>
+        <div class="small">
+            <img src="pic/GU-3.png" width="100%" class="small-img">
+        </div>
+
+        <div class="small">
+            <img src="pic/GU-4.jpg" width="100%" class="small-img">
+        </div>
+    </div>
+    </div>
+    <div class="right">
+        <div class="col-2">
+            <p>GUCCI</p>
+            <h1>THE ALCHEMIST'S GARDEN</h1>
+            <h4>330$</h4>
+            <div class="chon">
+                Tên sản phẩm:
+                <select>
+                    <option>A Song for the Rose</option>
+                    <option>The Last Day of Summer</option>
+                    <option>A Chant for the Nymph</option>
+                    <option>The Voice of the Snake</option>
+                </select>
+            </div>
+            <input type="number" placeholder="Số lượng" value=""><br>
+            <a href="" class="btn">ADD TO CARD</a>
+            <h3>CẢM HỨNG</h3>
+            <p>The Alchemist’s Garden được lấy cảm hứng từ lịch sử lâu đời của giả kim thuật, sự hoài niệm và thiên nhiên. Mỗi mùi hương nước hoa Gucci nữ nằm trong bộ này đều được diễn giải theo cách kể chuyện về một khoảnh khắc, ký ức hay một nơi nào đó
+                quá khứ.</p>
+        </div>
+    </div>
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+        SmallImg[0].onclick = function() {
+            ProductImg.src = SmallImg[0].src
+        }
+        SmallImg[1].onclick = function() {
+            ProductImg.src = SmallImg[1].src
+        }
+        SmallImg[2].onclick = function() {
+            ProductImg.src = SmallImg[2].src
+        }
+        SmallImg[3].onclick = function() {
+            ProductImg.src = SmallImg[3].src
+        }
+        SmallImg[4].onclick = function() {
+            ProductImg.src = SmallImg[4].src
+        }
+    </script>
+    <div id="banner"></div>
+    <div class="lft">
+        <div class="col-1">
+            <img src="pic/k1.png" width="100%" id="PoductImg">
+        </div>
+    </div>
+    <div class="sall-img-row">
+        <div class="small">
+            <img src="pic/k1.png" width="100%" class="sall-img">
+        </div>
+        <div class="small">
+            <img src="pic/k2.png" width="100%" class="sall-img">
+        </div>
+        <div class="small">
+            <img src="pic/k3.png" width="100%" class="sall-img">
+        </div>
+
+        <div class="small">
+            <img src="pic/k4.png" width="100%" class="sall-img">
+        </div>
+    </div>
+    </div>
+    <div class="rght">
+        <div class="col-2">
+            <p>GUCCI</p>
+            <h1>GUCCI BLOOM</h1>
+            <h4>330$</h4>
+            <div class="chon">
+                Tên sản phẩm:
+                <select>
+                    <option> Ambrosia Di Fiori</option>
+                    <option>Profumo Di Fiori</option>
+                    <option>Acqua Di Fiori</option>
+                    <option>Nettare Di Fiori</option>
+                </select>
+            </div>
+            <input type="number" placeholder="Số lượng" value=""><br>
+            <a href="" class="btn">ADD TO CARD</a>
+            <h3>CẢM HỨNG</h3>
+            <p>Là một cơn gió mát của mùa xuân, tràn ngập sức sống. Gucci Bloom giống một bông hoa nhỏ bé đang từ từ nở rộ, tràn ngập giữa một vườn hoa trắng muốt đầy trang nhã. Chân thật với hương thơm của lá cây vào buổi sớm mai, chất chứa những giọt sương
+                còn đọng lại vào đêm hôm trước.</p>
+        </div>
+    </div>
+    <script>
+        var PoductImg = document.getElementById("PoductImg");
+        var SallImg = document.getElementsByClassName("sall-img");
+        SallImg[0].onclick = function() {
+            PoductImg.src = SallImg[0].src
+        }
+        SallImg[1].onclick = function() {
+            PoductImg.src = SallImg[1].src
+        }
+        SallImg[2].onclick = function() {
+            PoductImg.src = SallImg[2].src
+        }
+        SallImg[3].onclick = function() {
+            PoductImg.src = SallImg[3].src
+        }
+        SallImg[4].onclick = function() {
+            PoductImg.src = SallImg[4].src
+        }
+    </script>
+    <div id="footer">
+        <div class="tr1">
+            <H5>THÔNG TIN LIÊN HỆ</H5>
+            IG:BLISS_VN
+            <br> Phone:+84373864446
+            <br> Gmail:Blissvn@gmail.com.vn
+            <br> Fax: +84 (8) 3823 3318
+        </div>
+        <div class="ph1">
+            <H5>TUYỂN DỤNG</H5>
+            <a href="#">Nộp hồ sơ</a>
+            <br> <a href="#">Tra cứu thông tin</a>
+            <br> <a href="#">Yêu cầu tuyển dụng</a>
+            <br> <a href="#">Phỏng vấn</a>
+        </div>
+        <div class="ph2">
+            <h5>TRA CỨU THÔNG TIN</h5>
+            <input type="text" placeholder="Tìm kiếm..." />
+            <br>
+            <div class="fb-like" data-href="?php the_permalink(); ?>" data-width="" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+        </div>
+
+    </div>
+    <script src="https://uhchat.net/code.php?f=5972f6"></script>
+</body>
+
+
+</html>

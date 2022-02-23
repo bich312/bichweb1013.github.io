@@ -1,0 +1,177 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0s linear;
+}
+
+.text-container {
+    background-color: rgb(255, 255, 255);
+    width: 100;
+    font-size: 75px;
+    text-align: center;
+}
+
+.text-container .h1 {
+    color: black;
+}
+
+nav {
+    overflow: hidden;
+    font-size: 17px;
+}
+
+nav a {
+    line-height: 30px;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: rgb(8, 94, 97);
+    font-size: 17px;
+}
+
+#banner {
+    height: 350px;
+    width: 100%;
+    background: url(pic/441.png);
+    margin-bottom: 20px;
+}
+
+.menu .box-contain {
+    width: 100%;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.menu .box-contain .box {
+    display: inline-block;
+    border: 2px solid rgb(8, 94, 97);
+    margin: 15px;
+    width: 20%;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: rgb(250, 239, 222);
+}
+
+.menu .box-contain .box:hover {
+    background-color: white;
+    transform: scale(1.15);
+}
+
+.menu .box-contain .box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 2px;
+    margin-left: 60px;
+}
+
+.menu .box-contain .box img:hover {
+    box-shadow: 0 0 10px gray;
+}
+
+.menu .box-contain .box .d a {
+    color: blue;
+    padding-left: 80px;
+}
+
+.menu .box-contain .box .d a:hover {
+    color: rgb(8, 94, 97);
+    text-align: center;
+}
+
+.menu .box-contain .box h3 {
+    color: rgb(8, 94, 97);
+    font-size: 15px;
+    padding: 1rem 0;
+}
+
+#footer {
+    background: rgb(8, 94, 97);
+    width: 100%;
+    height: 180px;
+    color: rgb(252, 228, 192);
+    clear: left;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#footer .tr1 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+#footer .ph1 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: justify;
+}
+
+#footer .ph1 .H5 {
+    margin-left: 20px;
+}
+
+#footer .ph2 {
+    width: 35%;
+    height: 100%;
+    float: right;
+    margin-left: -200px;
+    border: 1px solid #ccc;
+    border: none;
+    text-align: justify;
+}
+
+#footer .ph1 a {
+    color: rgb(252, 228, 192);
+}
+
+#footer .ph1 a:hover {
+    color: white;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 128, 43);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card1 {
+    width: 20%;
+    background-color: rgb(252, 242, 227);
+    font-size: 16px;
+    float: right;
+    text-align: center;
+}
+
+#right {
+    width: 25%;
+    height: 690px;
+    background: url(pic/huhuu.png);
+    margin-right: 50px;
+    float: right;
+    margin-top: -1047px;
+}
+
+#right .map {
+    float: right;
+    margin-top: 710px;
+    padding-top: 10px;
+}
